@@ -1,0 +1,186 @@
+.accordion {
+  width: 100%;
+}
+
+.accordionBtn {
+  padding: 5px;
+  width: 200px;
+  height: 84px;
+  opacity: 100%;
+  background-color: #eee;
+  cursor: pointer;
+  background-image: linear-gradient(#f0f2f9, #ffffff);
+  font-family: "Rubik-Light";
+  font-size: 14px;
+  color: #243771;
+  letter-spacing: 0;
+  line-height: 15px;
+}
+
+.active {
+  background-color: #243771;
+}
+
+.panel {
+  padding: 0, 18px;
+  background-color: #243771;
+  display: none;
+  overflow: hidden;
+  width: 320px;
+}
+
+.accordion:after {
+  content: "\02F2";
+  font-size: 20px;
+  color: #717ea5;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  font-size: 10px;
+  color: white;
+  float: right;
+  transform: rotate(-270 deg);
+}
+
+#panelOne {
+  background-color: pink;
+  width: 200px;
+  height: 355px;
+}
+
+#panelTwo {
+  background-color: #304995;
+  width: 200px;
+  height: 355px;
+}
+
+#panelThree {
+  background-color: pink;
+  width: 200px;
+  height: 355px;
+}
+
+.percentDiscountText {
+  font-family: "Rubik-Bold";
+  font-size: 42px;
+  color: #ffffff;
+  letter-spacing: -1px;
+  line-height: 30px;
+}
+
+.percentSignText {
+  font-family: "Rubik-Bold";
+  font-size: 24px;
+  color: #ffffff;
+  letter-spacing: 0;
+  line-height: 18px;
+}
+
+.offText {
+  font-family: "Rubik-Black";
+  font-size: 10px;
+  color: #ffffff;
+  letter-spacing: 0;
+  line-height: 18px;
+}
+
+.line1Text {
+  font-family: "Rubik-Bold";
+  font-size: 18px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 16px;
+}
+
+.line2Text {
+  font-family: "Rubik-Bold";
+  font-size: 14px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 16px;
+}
+.topBorder {
+  border: 2px solid #ffffff;
+  border-style: dashed;
+}
+
+.supplyTextNumber {
+  font-family: "Rubik-Bold";
+  font-size: 18px;
+  color: #ffffff;
+  letter-spacing: 0;
+  text-align: center;
+  line-height: 18px;
+}
+
+.supplyText {
+  font-family: "Rubik-Regular";
+  font-size: 18px;
+  color: #000000;
+  letter-spacing: 0;
+  text-align: center;
+  line-height: 18px;
+}
+
+.newPriceText {
+  font-family: "Rubik-Bold";
+  font-size: 30px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 40px;
+}
+
+.oldPriceText {
+  font-family: "Rubik-Regular";
+  font-size: 14px;
+  color: #ffffff;
+}
+
+.eachText {
+  font-family: "Rubik-Regular";
+  font-size: 12px;
+  color: #ffffff;
+}
+
+.bottomBorder {
+  border: 1px solid #243771;
+  width: 120px;
+  height: 2px;
+  text-align: center;
+}
+
+.saveAmt {
+  font-family: "Rubik-Medium";
+  font-size: 16px;
+  color: #71b621;
+  text-align: center;
+  line-height: 18px;
+}
+
+.shippingTxt {
+  font-family: "Rubik-Regular";
+  font-size: 14px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 18px;
+}
+
+.addToCartBtn {
+  width: 160px;
+  height: 40px;
+  opacity: 1;
+  color: #ffffff;
+  background-color: #ff5844;
+  font-size: 14px;
+  font-family: "Rubik-Medium";
+  border-radius: 4px;
+  border: none;
+  text-align: center;
+  line-height: 18px;
+}
+
+span {
+  display: block;
+}
