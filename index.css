@@ -1,10 +1,12 @@
 #accordion {
   width: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 .accordionBtn {
   padding: 5px;
-  width: 200px;
+  width: 320px;
   height: 84px;
   opacity: 100%;
   background-color: #eee;
@@ -21,13 +23,13 @@
   background-color: #243771;
 }
 
-.panel {
+/* .panel {
   padding: 0, 18px;
   background-color: #243771;
   display: none;
   overflow: hidden;
   width: 320px;
-}
+} */
 
 .accordion:after {
   content: "\02F2";
@@ -47,24 +49,20 @@
 
 #panelOne {
   background: #e2e6f3;
-  width: 200px;
+  width: 320px;
   height: 355px;
 }
 
 #panelTwo {
   background: #304995;
-  width: 200px;
+  width: 320px;
   height: 355px;
 }
 
 #panelThree {
   background: #e2e6f3;
-  width: 200px;
+  width: 320px;
   height: 355px;
-}
-
-span {
-  display: block;
 }
 
 .foldedSupplyTextNumberPanelOne {
@@ -170,6 +168,10 @@ span {
   border-style: dashed;
 }
 
+#supplyPanelOne {
+  text-align: center;
+}
+
 .supplyTextNumberPanelOne {
   font-family: "Rubik-Bold";
   font-size: 18px;
@@ -206,17 +208,21 @@ span {
   font-family: "Rubik-Regular";
   font-size: 12px;
   color: #3651a3;
+  text-align: right;
 }
 
 .bottomBorderPanelOne {
-  border: 1px solid #91a2ca;
+  border: 2px solid #91a2ca;
   width: 120px;
-  height: 2px;
+  height: 0px;
   text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .saveAmtPanelOne {
-  font-family: Rubik-Medium;
+  font-family: "Rubik-Medium" F;
   font-size: 16px;
   color: #71b621;
   text-align: center;
@@ -229,6 +235,10 @@ span {
   color: #243771;
   text-align: center;
   line-height: 18px;
+}
+
+.btn {
+  text-align: center;
 }
 
 .addToCartBtnPanelOne {
@@ -291,6 +301,10 @@ span {
   border-style: dashed;
 }
 
+#supplyPanelTwo {
+  text-align: center;
+}
+
 .supplyTextNumberPanelTwo {
   font-family: "Rubik-Bold";
   font-size: 18px;
@@ -330,10 +344,13 @@ span {
 }
 
 .bottomBorderPanelTwo {
-  border: 1px solid #243771;
+  border: 2px solid #243771;
   width: 120px;
-  height: 2px;
+  height: 0px;
   text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .saveAmtPanelTwo {
@@ -380,6 +397,10 @@ span {
   border-style: dashed;
 }
 
+#supplyPanelThree {
+  text-align: center;
+}
+
 .supplyTextNumberPanelThree {
   font-family: "Rubik-Bold";
   font-size: 18px;
@@ -398,6 +419,9 @@ span {
   line-height: 18px;
 }
 
+.centered {
+  text-align: center;
+}
 .newPriceTextPanelThree {
   font-family: "Rubik-Bold";
   font-size: 30px;
@@ -410,6 +434,8 @@ span {
   font-family: "Rubik-Regular";
   font-size: 12px;
   color: #3651a3;
+  text-align: right;
+  margin-right: 19px;
 }
 
 .addToCartBtnPanelThree {
