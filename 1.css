@@ -1,0 +1,118 @@
+.percentDiscountTextPanelOne {
+    font-family: "Rubik-Bold";
+    font-size: 42px;
+    color: #ffffff;
+    letter-spacing: -1px;
+    line-height: 30px;
+  }
+  
+  .percentSignTextPanelOne {
+    font-family: "Rubik-Bold";
+    font-size: 24px;
+    color: #ffffff;
+    letter-spacing: 0;
+    line-height: 18px;
+  }
+  
+  .offTextPanelOne {
+    font-family: "Rubik-Black";
+    font-size: 10px;
+    color: #ffffff;
+    letter-spacing: 0;
+    line-height: 18px;
+  }
+  
+  .line1TextPanelOne {
+    font-family: "Rubik-Bold";
+    font-size: 18px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 16px;
+  }
+  
+  .line2TextPanelOne {
+    font-family: "Rubik-Bold";
+    font-size: 14px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 16px;
+  }
+  .topBorderPanelOne {
+    border: 2px solid #ffffff;
+    border-style: dashed;
+  }
+  
+  .supplyTextNumberPanelOne {
+    font-family: "Rubik-Bold";
+    font-size: 18px;
+    color: #ffffff;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 18px;
+  }
+  
+  .supplyTextPanelOne {
+    font-family: "Rubik-Regular";
+    font-size: 18px;
+    color: #000000;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 18px;
+  }
+  
+  .newPriceTextPanelOne {
+    font-family: "Rubik-Bold";
+    font-size: 30px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 40px;
+  }
+  
+  .oldPriceTextPanelOne {
+    font-family: "Rubik-Regular";
+    font-size: 14px;
+    color: #ffffff;
+  }
+  
+  .eachTextPanelOne {
+    font-family: "Rubik-Regular";
+    font-size: 12px;
+    color: #ffffff;
+  }
+  
+  .bottomBorderPanelOne {
+    border: 1px solid #243771;
+    width: 120px;
+    height: 2px;
+    text-align: center;
+  }
+  
+  .saveAmtPanelOne {
+    font-family: "Rubik-Medium";
+    font-size: 16px;
+    color: #71b621;
+    text-align: center;
+    line-height: 18px;
+  }
+  
+  .shippingTxtPanelOne {
+    font-family: "Rubik-Regular";
+    font-size: 14px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 18px;
+  }
+  
+  .addToCartBtnPanelOne {
+    width: 160px;
+    height: 40px;
+    opacity: 1;
+    color: #ffffff;
+    background-color: #ff5844;
+    font-size: 14px;
+    font-family: "Rubik-Medium";
+    border-radius: 4px;
+    border: none;
+    text-align: center;
+    line-height: 18px;
+  }

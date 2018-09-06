@@ -1,4 +1,4 @@
-.accordion {
+#accordion {
   width: 100%;
 }
 
@@ -41,28 +41,212 @@
   font-size: 10px;
   color: white;
   float: right;
-  transform: rotate(-270 deg);
+  /* transform: rotate(-270 deg); */
+  background-image: url("assets/Pricing_BG_TopTriangle_Hover.png");
 }
 
 #panelOne {
-  background-color: pink;
+  background: #e2e6f3;
   width: 200px;
   height: 355px;
 }
 
 #panelTwo {
-  background-color: #304995;
+  background: #304995;
   width: 200px;
   height: 355px;
 }
 
 #panelThree {
-  background-color: pink;
+  background: #e2e6f3;
   width: 200px;
   height: 355px;
 }
 
-.percentDiscountText {
+span {
+  display: block;
+}
+
+.foldedSupplyTextNumberPanelOne {
+  font-family: "Rubik-Bold";
+  font-size: 44px;
+  color: #3651a3;
+  letter-spacing: 0;
+  line-height: 44px;
+}
+
+.foldedSupplyTextPanelOne {
+  font-family: "Rubik-Light";
+  font-size: 14px;
+  color: #243771;
+  letter-spacing: 0;
+  line-height: 15px;
+}
+
+.arrowPanelOne {
+  transform: rotate(-360deg);
+  background: #717ea5;
+}
+
+.foldedSupplyTextNumberPanelTwo {
+  font-family: "Rubik-Bold";
+  font-size: 44px;
+  color: #ffffff;
+  letter-spacing: 0;
+  line-height: 44px;
+}
+
+.foldedSupplyTextPanelTwo {
+  font-family: "Rubik-Light";
+  font-size: 14px;
+  color: #ffffff;
+  letter-spacing: 0;
+  line-height: 15px;
+}
+
+.arrowPanelTwo {
+  transform: rotate(-270deg);
+  background: #ffffff;
+}
+
+.foldedSupplyTextNumberPanelThree {
+  font-family: "Rubik-Bold";
+  font-size: 44px;
+  color: #3651a3;
+  letter-spacing: 0;
+  line-height: 44px;
+}
+
+.foldedSupplyTextPanelThree {
+  font-family: "Rubik-Light";
+  font-size: 14px;
+  color: #243771;
+  letter-spacing: 0;
+  line-height: 15px;
+}
+
+.percentDiscountTextPanelOne {
+  font-family: "Rubik-Bold";
+  font-size: 42px;
+  color: #243771;
+  letter-spacing: -1px;
+  line-height: 30px;
+}
+
+.percentSignTextPanelOne {
+  font-family: "Rubik-Bold";
+  font-size: 24px;
+  color: #243771;
+  letter-spacing: 0;
+  line-height: 18px;
+}
+
+.offTextPanelOne {
+  font-family: "Rubik-Black";
+  font-size: 10px;
+  color: #243771;
+  letter-spacing: 0;
+  line-height: 18px;
+}
+
+.line1TextPanelOne {
+  font-family: "Rubik-Bold";
+  font-size: 18px;
+  color: #243771;
+  text-align: right;
+  line-height: 16px;
+}
+
+.line2TextPanelOne {
+  font-family: "Rubik-Bold";
+  font-size: 14px;
+  color: #243771;
+  text-align: right;
+  line-height: 16px;
+}
+
+.topBorderPanelOne {
+  background: #c0c6d9;
+  border-style: dashed;
+}
+
+.supplyTextNumberPanelOne {
+  font-family: "Rubik-Bold";
+  font-size: 18px;
+  color: #243771;
+  letter-spacing: 0;
+  text-align: center;
+  line-height: 18px;
+}
+
+.supplyTextPanelOne {
+  font-family: "Rubik-Regular";
+  font-size: 18px;
+  color: #12192f;
+  letter-spacing: 0;
+  text-align: center;
+  line-height: 18px;
+}
+
+.newPriceTextPanelOne {
+  font-family: "Rubik-Bold";
+  font-size: 30px;
+  color: #3651a3;
+  text-align: center;
+  line-height: 40px;
+}
+
+.oldPriceTextPanelOne {
+  font-family: "Rubik-Regular";
+  font-size: 14px;
+  color: #3651a3;
+}
+
+.eachTextPanelOne {
+  font-family: "Rubik-Regular";
+  font-size: 12px;
+  color: #3651a3;
+}
+
+.bottomBorderPanelOne {
+  border: 1px solid #91a2ca;
+  width: 120px;
+  height: 2px;
+  text-align: center;
+}
+
+.saveAmtPanelOne {
+  font-family: Rubik-Medium;
+  font-size: 16px;
+  color: #71b621;
+  text-align: center;
+  line-height: 18px;
+}
+
+.shippingTxtPanelOne {
+  font-family: "Rubik-Regular";
+  font-size: 14px;
+  color: #243771;
+  text-align: center;
+  line-height: 18px;
+}
+
+.addToCartBtnPanelOne {
+  width: 160px;
+  height: 40px;
+  opacity: 1;
+  border: none;
+
+  background: #ff5844;
+  border-radius: 4px;
+  font-family: "Rubik-Medium";
+  font-size: 14px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 18px;
+}
+
+.percentDiscountTextPanelTwo {
   font-family: "Rubik-Bold";
   font-size: 42px;
   color: #ffffff;
@@ -70,7 +254,7 @@
   line-height: 30px;
 }
 
-.percentSignText {
+.percentSignTextPanelTwo {
   font-family: "Rubik-Bold";
   font-size: 24px;
   color: #ffffff;
@@ -78,7 +262,7 @@
   line-height: 18px;
 }
 
-.offText {
+.offTextPanelTwo {
   font-family: "Rubik-Black";
   font-size: 10px;
   color: #ffffff;
@@ -86,7 +270,7 @@
   line-height: 18px;
 }
 
-.line1Text {
+.line1TextPanelTwo {
   font-family: "Rubik-Bold";
   font-size: 18px;
   color: #ffffff;
@@ -94,19 +278,20 @@
   line-height: 16px;
 }
 
-.line2Text {
+.line2TextPanelTwo {
   font-family: "Rubik-Bold";
   font-size: 14px;
   color: #ffffff;
   text-align: center;
   line-height: 16px;
 }
-.topBorder {
+
+.topBorderPanelTwo {
   border: 2px solid #ffffff;
   border-style: dashed;
 }
 
-.supplyTextNumber {
+.supplyTextNumberPanelTwo {
   font-family: "Rubik-Bold";
   font-size: 18px;
   color: #ffffff;
@@ -115,7 +300,7 @@
   line-height: 18px;
 }
 
-.supplyText {
+.supplyTextPanelTwo {
   font-family: "Rubik-Regular";
   font-size: 18px;
   color: #000000;
@@ -124,7 +309,7 @@
   line-height: 18px;
 }
 
-.newPriceText {
+.newPriceTextPanelTwo {
   font-family: "Rubik-Bold";
   font-size: 30px;
   color: #ffffff;
@@ -132,26 +317,26 @@
   line-height: 40px;
 }
 
-.oldPriceText {
+.oldPriceTextPanelTwo {
   font-family: "Rubik-Regular";
   font-size: 14px;
   color: #ffffff;
 }
 
-.eachText {
+.eachTextPanelTwo {
   font-family: "Rubik-Regular";
   font-size: 12px;
   color: #ffffff;
 }
 
-.bottomBorder {
+.bottomBorderPanelTwo {
   border: 1px solid #243771;
   width: 120px;
   height: 2px;
   text-align: center;
 }
 
-.saveAmt {
+.saveAmtPanelTwo {
   font-family: "Rubik-Medium";
   font-size: 16px;
   color: #71b621;
@@ -159,7 +344,7 @@
   line-height: 18px;
 }
 
-.shippingTxt {
+.shippingTxtPanelTwo {
   font-family: "Rubik-Regular";
   font-size: 14px;
   color: #ffffff;
@@ -167,7 +352,7 @@
   line-height: 18px;
 }
 
-.addToCartBtn {
+.addToCartBtnPanelTwo {
   width: 160px;
   height: 40px;
   opacity: 1;
@@ -181,6 +366,62 @@
   line-height: 18px;
 }
 
-span {
-  display: block;
+.websitePrice {
+  font-family: "Rubik-Bold";
+  font-size: 20px;
+  color: #243771;
+  letter-spacing: -0.48px;
+  text-align: center;
+  line-height: 30px;
+}
+
+.topBorderPanelThree {
+  border: 2px solid #ffffff;
+  border-style: dashed;
+}
+
+.supplyTextNumberPanelThree {
+  font-family: "Rubik-Bold";
+  font-size: 18px;
+  color: #243771;
+  letter-spacing: 0;
+  text-align: center;
+  line-height: 18px;
+}
+
+.supplyTextPanelThree {
+  font-family: "Rubik-Regular";
+  font-size: 18px;
+  color: #12192f;
+  letter-spacing: 0;
+  text-align: center;
+  line-height: 18px;
+}
+
+.newPriceTextPanelThree {
+  font-family: "Rubik-Bold";
+  font-size: 30px;
+  color: #3651a3;
+  text-align: center;
+  line-height: 40px;
+}
+
+.eachTextPanelThree {
+  font-family: "Rubik-Regular";
+  font-size: 12px;
+  color: #3651a3;
+}
+
+.addToCartBtnPanelThree {
+  width: 160px;
+  height: 40px;
+  opacity: 1;
+  color: #ffffff;
+  background-color: #ff5844;
+  font-size: 14px;
+  font-family: "Rubik-Medium";
+  border-radius: 4px;
+  border: none;
+  text-align: center;
+  line-height: 18px;
 }
