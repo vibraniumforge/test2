@@ -8,6 +8,10 @@
     <title>MD-1 Test</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/rubik" type="text/css" />
     <link rel="stylesheet" href="index.css">
     <script>
         $(function () {
@@ -26,49 +30,74 @@
 
 <body>
     <div id="accordion">
-        <button class="accordionBtn"><p><span>6 </span><span>Month </span><span>Supply</span></p> </button>
+        <button class="accordionBtn">
+            <p><span>6 </span><span>Month </span><span>Supply</span></p>
+        </button>
         <div id="panelOne" class="panel">
-            <div>
-                <p><span class="percentDiscountTextPanelOne">26</span>
-                    <span class="percentSignTextPanelOne">%</span>
-                    <span class="offTextPanelOne">OFF</span>
-                    <span class="line1TextPanelOne">BEST</span>
-                    <span class="line2TextPanelOne">VALUE</span>
-                </p>
-            </div>
-            <div class="topBorderPanelOne"></div>
-            <div id="supplyPanelOne">
-                <p><span class="supplyTextNumberPanelOne">6 </span><span class="supplyTextPanelOne">Month Supply</span> </p>
+            <div id="firstLineTabOne">
+
+                <div>
+                    <p><span class="percentDiscountTextPanelOne">26</span></p>
+                </div>
+                <div>
+                    <p><span class="percentSignTextPanelOne">%</span></p>
+                    <p><span class="offTextPanelOne">OFF</span></p>
+                </div>
+
+                <div id="rightPartTabOne">
+                    <p><span class="line1TextPanelOne">BEST</span></p>
+                    <p><span class="line2TextPanelOne">VALUE</span></p>
+                </div>
             </div>
 
-            <p class="newPriceTextPanelOne">$33.17</p>
-            <div>
-                <p><span class="oldPriceTextPanelOne"><s>$45.00</s></span>
-                    <span class="eachTextPanelOne">each</span></p>
+            <div class="topBorderPanelOne">
             </div>
-            <div class="bottomBorderPanelOne"></div>
+            <div id="supplyPanelOne " class="centered">
+                <p><span class="supplyTextNumberPanelOne ">6 </span><span class="supplyTextPanelOne ">Month Supply</span>
+                </p>
+            </div>
+
+            <p class="newPriceTextPanelOne ">$33.17</p>
+
+            <div>
+                <p><span class="oldPriceTextPanelOne "><s>$45.00</s></span>
+                    <span class="eachTextPanelOne ">each</span></p>
+            </div>
+            <div class="bottomBorderPanelOne  ">
+
+            </div>
             <p class="saveAmtPanelOne">Save $71</p>
-            <p class="shippingTxtPanelOne">Free Shipping!</p>
-            <div class="btn">
-                <button class="addToCartBtnPanelOne">ADD TO CART</button>
+            <p class="shippingTxtPanelOne ">Free Shipping!</p>
+            <div class="btn ">
+                <button class="addToCartBtnPanelOne ">ADD TO CART</button>
             </div>
         </div>
 
-        <button class="accordionBtn"><p><span>3 </span><span>Month </span><span>Supply</span></p> </button>
+        <button class="accordionBtn">
+            <p><span>3 </span><span>Month </span><span>Supply</span></p>
+        </button>
         <div id="panelTwo" class="panel">
-            <div>
-                <span class="percentDiscountTextPanelTwo">15</span>
-                <span class="percentSignTextPanelTwo">%</span>
-                <span class="offTextPanelTwo">OFF</span>
-                <span class="line1TextPanelTwo">BEST</span>
-                <span class="line2TextPanelTwo">SELLER</span>
-                </p>
+            <div id="firstLineTabTwo">
+                <div>
+                    <p><span class="percentDiscountTextPanelTwo">15</span></p>
+                </div>
+                <div>
+                    <p></p><span class="percentSignTextPanelTwo">%</span></p>
+                    <p> <span class="offTextPanelTwo">OFF</span></p>
+                </div>
+                <div>
+                    <p><span class="line1TextPanelTwo">BEST</span></p>
+                    <p><span class="line2TextPanelTwo">SELLER</span>
+                    </p>
+                </div>
             </div>
+
             <div class="topBorderPanelTwo">
 
             </div>
             <div id="supplyPanelTwo">
-                <p><span class="supplyTextNumberPanelTwo">3 </span><span class="supplyTextPanelTwo">Month Supply</span> </p>
+                <p><span class="supplyTextNumberPanelTwo">3 </span><span class="supplyTextPanelTwo">Month Supply</span>
+                </p>
             </div>
             <p class="newPriceTextPanelTwo">$38.33</p>
             <div>
@@ -82,7 +111,9 @@
                 <button class="addToCartBtnPanelTwo">ADD TO CART</button></div>
         </div>
 
-        <button class="accordionBtn"><p><span>1 </span><span>Month </span><span>Supply</span></p> </button>
+        <button class="accordionBtn">
+            <p><span>1 </span><span>Month </span><span>Supply</span></p>
+        </button>
         <div id="panelThree" class="panel">
             <div>
                 <p class="websitePrice">Website Price</p>
@@ -104,7 +135,6 @@
                 <button class="addToCartBtnPanelThree">ADD TO CART</button>
             </div>
         </div>
-
     </div>
 
 </body>

@@ -1,4 +1,3 @@
-// let acc = document.getElementsByClassName("accordion");
 let acc = $(".accordion");
 
 for (let i = 0; i < acc.length; i++) {

@@ -44,7 +44,7 @@
   color: white;
   float: right;
   /* transform: rotate(-270 deg); */
-  background-image: url("assets/Pricing_BG_TopTriangle_Hover.png");
+  background-image: url("../assets/Pricing_BG_TopTriangle_Hover.png");
 }
 
 #panelOne {
@@ -121,6 +121,18 @@
   color: #243771;
   letter-spacing: 0;
   line-height: 15px;
+}
+
+#firstLineTabOne {
+  display: flex;
+}
+
+/* #leftPartTabOne {
+  display: flex;
+} */
+
+#rightPartTabOne {
+  text-align: right;
 }
 
 .percentDiscountTextPanelOne {
@@ -222,7 +234,7 @@
 }
 
 .saveAmtPanelOne {
-  font-family: "Rubik-Medium" F;
+  font-family: "Rubik-Medium";
   font-size: 16px;
   color: #71b621;
   text-align: center;
@@ -249,8 +261,10 @@
 
   background: #ff5844;
   border-radius: 4px;
-  font-family: "Rubik-Medium";
+  font-family: "RubikRegular";
   font-size: 14px;
+  font-weight:normal;
+  font-style:medium;
   color: #ffffff;
   text-align: center;
   line-height: 18px;
@@ -445,7 +459,11 @@
   color: #ffffff;
   background-color: #ff5844;
   font-size: 14px;
-  font-family: "Rubik-Medium";
+  /* font-family: "Rubik-Medium"; */
+  font-family: 'RubikRegular'; 
+   font-weight: normal; 
+   font-style: normal; 
+}
   border-radius: 4px;
   border: none;
   text-align: center;
